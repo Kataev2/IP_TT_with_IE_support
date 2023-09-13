@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/IP_TT_with_IE_support/static/css/main.1826e0df.css",
+    "main.css": "/IP_TT_with_IE_support/static/css/main.025c3ce8.css",
     "main.js": "/IP_TT_with_IE_support/static/js/main.1e993dc6.js",
     "index.html": "/IP_TT_with_IE_support/index.html",
-    "main.1826e0df.css.map": "/IP_TT_with_IE_support/static/css/main.1826e0df.css.map",
+    "main.025c3ce8.css.map": "/IP_TT_with_IE_support/static/css/main.025c3ce8.css.map",
     "main.1e993dc6.js.map": "/IP_TT_with_IE_support/static/js/main.1e993dc6.js.map"
   },
   "entrypoints": [
-    "static/css/main.1826e0df.css",
+    "static/css/main.025c3ce8.css",
     "static/js/main.1e993dc6.js"
   ]
 }
