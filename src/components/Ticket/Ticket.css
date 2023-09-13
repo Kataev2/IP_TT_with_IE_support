@@ -25,6 +25,11 @@
     padding: 30px 20px;
 }
 
+.ticket__info-container {
+    flex: 0 0 105px;
+    max-width: 105px;
+}
+
 .ticket__info-container_align-right {
     text-align: right;
 }
