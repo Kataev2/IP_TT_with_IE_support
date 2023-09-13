@@ -1,0 +1,42 @@
+.filter {
+    width: 290px;
+    height: auto;
+    padding: 20px 0;
+    border-radius: 10px;
+    background: white;
+}
+
+.filter__wrapper {
+    margin-top: 10px;
+}
+
+.filter__item {
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    font-size: 14px;
+    transition: background-color .15s linear;
+}
+
+.filter__item:hover {
+    background: #e7e6e6;
+}
+
+.filter__item input {
+    width: 16px;
+    height: 16px;
+}
+
+.filter__item label {
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.filter__title {
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #0c131d;
+}
