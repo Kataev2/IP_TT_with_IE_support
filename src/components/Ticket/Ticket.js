@@ -68,7 +68,10 @@ function Ticket({props}) {
                 </div>
 
                 <div className="ticket__stops">
-                    <span>{getStops(props.stops)}</span>
+                    <div className='stops'>
+                        <div className='stops__title'>{getStops(props.stops)}</div>
+                        <div className='stops__underline'></div>
+                    </div>
                 </div>
 
                 <div className="ticket__info-container ticket__info-container_align-right">
