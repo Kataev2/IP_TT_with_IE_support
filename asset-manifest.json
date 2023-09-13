@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/IP_TT_with_IE_support/static/css/main.da2c94ac.css",
+    "main.js": "/IP_TT_with_IE_support/static/js/main.922c5583.js",
+    "index.html": "/IP_TT_with_IE_support/index.html",
+    "main.da2c94ac.css.map": "/IP_TT_with_IE_support/static/css/main.da2c94ac.css.map",
+    "main.922c5583.js.map": "/IP_TT_with_IE_support/static/js/main.922c5583.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da2c94ac.css",
+    "static/js/main.922c5583.js"
+  ]
+}
