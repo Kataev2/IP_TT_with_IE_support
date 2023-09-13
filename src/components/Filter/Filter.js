@@ -4,7 +4,7 @@ import './Filter.css'
 function Filter({filterList, filter, setFilter}) {
     const isAllChecked = filter.length === filterList.length;
 
-    function checkboxHendler(e) {
+    function checkboxHandler(e) {
         const isSelected = e.target.checked;
         const value = parseInt(e.target.value);
 
@@ -19,7 +19,7 @@ function Filter({filterList, filter, setFilter}) {
         };
     }
 
-    function checkAllHendler() {
+    function checkAllHandler() {
         const values = filterList.map(stop => stop.value);
         isAllChecked ? setFilter([]) : setFilter(values);
     };
@@ -35,7 +35,7 @@ function Filter({filterList, filter, setFilter}) {
                         id='All'
                         value='All'
                         checked={isAllChecked}
-                        onChange={checkAllHendler}
+                        onChange={checkAllHandler}
                     />
                     <label htmlFor='All'>Выбрать все</label>
                 </div>
@@ -47,7 +47,7 @@ function Filter({filterList, filter, setFilter}) {
                                 type="checkbox"
                                 id={stop.id} 
                                 value={stop.value} 
-                                onChange={checkboxHendler}
+                                onChange={checkboxHandler}
                                 checked={filter.includes(stop.value)}
                             />
                             <label htmlFor={stop.id}>{stop.label}</label>
